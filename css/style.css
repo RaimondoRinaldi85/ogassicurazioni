@@ -218,7 +218,9 @@ button:hover {
     }
 
     .buttons {
-        gap: 1rem;
+        margin-top: 1rem;
+        gap: 2rem;
+        flex-direction: column;
     }
 }
 
