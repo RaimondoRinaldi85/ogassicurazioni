@@ -32,8 +32,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     ];
 
     // Set email headers and content
-    $from = "Form Submission <preventivi@assicurazioniog.com>"; 
-    $to = "preventivi@assicurazioniog.com"; 
+    $from = "Form Submission <raimondorinaldi85@gmail.com"; 
+    $to = "raimondorinaldi85@gmail.com"; 
     $subject = "Preventivo ASSICURAZIONI sito";
 
     $body = "";
