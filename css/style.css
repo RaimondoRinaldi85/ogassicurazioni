@@ -74,24 +74,24 @@ nav p {
     top: 60%;
 }
 
-ul {
+nav ul {
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-ul li {
+nav ul li {
     margin: 0 10px;
     padding: 1rem .3rem;
 }
 
-ul li a {
+nav ul li a {
     color: #242424;
     position: relative;
     font-size: 1rem;
 }
 
-ul li:hover {
+nav ul li:hover {
     background-color: rgba(0, 0, 0, 0.295);
 }
 
@@ -116,7 +116,7 @@ ul li:hover {
         transform: translate(-50%, -150%) rotate(-225deg);
     }
 
-    ul {
+    nav ul {
         background-color: #f8f9fa;
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
         flex-direction: column;
@@ -130,12 +130,12 @@ ul li:hover {
         z-index: 100;
     }
 
-    ul.show {
+    nav ul.show {
         transform: translateX(0);
         background-color: #f8f9fa;
     }
 
-    ul li {
+    nav ul li {
         margin: 15px;
     }
 }
@@ -169,8 +169,11 @@ ul li:hover {
 
 h1 {
     font-size: 3.5rem;
-    margin-bottom: 1rem;
     letter-spacing: 2px;
+}
+
+.land p {
+    margin-top: 1rem;
 }
 
 .subtitle {
@@ -200,7 +203,7 @@ button {
 
 button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.062);
     background-color: #ff9f68;
     color: white;
 }
@@ -308,6 +311,10 @@ button:hover {
         padding: 1rem;
     }
 
+    .about-content {
+        text-align: center;
+    }
+
     .about-grid {
         grid-template-columns: 1fr;
     }
@@ -319,9 +326,13 @@ button:hover {
     }
 
     .bannerimg {
-
         width: 90%;
+        height: 100px;
         object-fit: cover;
+    }
+
+    .about-banner {
+        text-align: center;
     }
 
     .about-image:hover {
@@ -366,7 +377,7 @@ button:hover {
     background-color: white;
     color: #000000;
     margin: 2rem 0;
-    border-radius: 15px;
+
 }
 
 .accordion-item-header {
@@ -375,7 +386,7 @@ button:hover {
     min-height: 3.5rem;
     line-height: 1.25rem;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     position: relative;
@@ -434,7 +445,29 @@ button:hover {
     margin-bottom: 2rem;
 }
 
+.content-right a {
+    color: black;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.062);
+}
+
+.content-right a:hover {
+    color: #ff9f68;
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+}
+
 @media(max-width:767px) {
+
+    .accordion-item-header {
+        cursor: pointer;
+        padding: 0.5rem 3rem 0.5rem 1rem;
+        font-size: 18px;
+
+    }
+
     .accordion-item-body-content {
         display: flex;
         flex-direction: column;
@@ -449,6 +482,7 @@ button:hover {
         text-align: center;
         margin-right: 0;
     }
+
 }
 
 
@@ -531,9 +565,86 @@ button[type="submit"]:hover {
 }
 
 
+@media(max-width:767px) {
+    .form-container h2 {
+        font-size: 15px;
+        margin-bottom: 2rem;
+    }
+}
+
+/* end form */
+
+/* footer */
+
+#footer {
+    background-color: #242424;
+    color: white;
+
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.social p,
+.social a {
+    color: white;
+    margin: .5rem 1rem;
+}
+
+.social ul li {
+    margin-bottom: .5rem;
+}
+
+.social a:hover {
+    color: #ff9f68;
+}
+
+.social i {
+    margin-right: 10px;
+    margin-bottom: 1.5rem;
+}
+
+@media(max-width:767px) {
+
+    .container-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .social ul li {
+        margin-bottom: 2rem;
+    }
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end footer */
 
 
 
