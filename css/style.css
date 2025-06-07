@@ -182,13 +182,13 @@ h1 {
     opacity: 0.9;
 }
 
-.buttons {
+.land .buttons {
     display: flex;
     gap: 1rem;
     justify-content: center;
 }
 
-button {
+.land button {
     padding: 1rem 2rem;
     font-size: 1.1rem;
     cursor: pointer;
@@ -209,7 +209,7 @@ button:hover {
 }
 
 @media (max-width: 768px) {
-    .container {
+    .container-land {
         padding: 1rem;
     }
 
@@ -222,12 +222,12 @@ button:hover {
         font-size: 1rem;
     }
 
-    button {
+    .land button {
         padding: 0.75rem 1.5rem;
         font-size: 1rem;
     }
 
-    .buttons {
+    .land .buttons {
         margin-top: 1rem;
         gap: 2rem;
         flex-direction: column;
@@ -346,14 +346,9 @@ button:hover {
     }
 }
 
-
-
-
 /* Su di noi */
 
 /* sedi*/
-
-
 /* accordion - sedi*/
 
 #sedi {
@@ -485,9 +480,6 @@ button:hover {
 
 }
 
-
-
-
 /* accordion sedi end */
 /* sedi end */
 
@@ -570,6 +562,10 @@ button[type="submit"]:hover {
         font-size: 15px;
         margin-bottom: 2rem;
     }
+
+    label {
+        font-size: 80%;
+    }
 }
 
 /* end form */
@@ -616,11 +612,12 @@ button[type="submit"]:hover {
 
     .container-footer {
         flex-direction: column;
-        text-align: center;
+
     }
 
     .social ul li {
         margin-bottom: 2rem;
+        text-align: left;
     }
 }
 
