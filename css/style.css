@@ -385,6 +385,7 @@ button:hover {
     display: flex;
     align-items: center;
     position: relative;
+    color: #242424;
 }
 
 .accordion-item-header::after {
@@ -407,8 +408,9 @@ button:hover {
 
 .accordion-item-body-content {
     padding: 1rem;
+    margin-top: 1rem;
     line-height: 1.5rem;
-    border-top: 1px solid;
+
     border-image: linear-gradient(to right, transparent, #2c2c2c, transparent) 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -608,6 +610,12 @@ button[type="submit"]:hover {
     margin-bottom: 1.5rem;
 }
 
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    background-color: black;
+}
+
 @media(max-width:767px) {
 
     .container-footer {
@@ -620,16 +628,6 @@ button[type="submit"]:hover {
         text-align: left;
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 

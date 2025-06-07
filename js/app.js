@@ -3,7 +3,7 @@ const ul = document.querySelector('nav ul');
 const navLinks = ul.querySelectorAll('a');
 
 burger.addEventListener('click', (e) => {
-    e.stopPropagation(); // Prevent this click from bubbling to the document
+    e.stopPropagation();
     burger.classList.toggle('show-x');
     ul.classList.toggle('show');
 });
@@ -17,7 +17,6 @@ document.addEventListener('click', (e) => {
         ul.classList.remove('show');
     }
 });
-// Close menu when clicking a menu link
 navLinks.forEach(link => {
     link.addEventListener('click', () => {
         burger.classList.remove('show-x');
