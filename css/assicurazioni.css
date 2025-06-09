@@ -223,6 +223,15 @@ button:hover {
         letter-spacing: 1px;
     }
 
+    .land p {
+        margin-top: .5rem;
+        padding: .3rem;
+    }
+
+    .container-land img {
+        width: 150px;
+    }
+
     .subtitle {
         font-size: 1rem;
     }
@@ -233,7 +242,7 @@ button:hover {
     }
 
     .land .buttons {
-        margin-top: 1rem;
+        margin-top: .5rem;
         gap: 2rem;
         flex-direction: column;
     }
@@ -578,7 +587,6 @@ button[type="submit"]:hover {
 /* end form */
 
 /* footer */
-
 #footer {
     background-color: #242424;
     color: white;
@@ -633,16 +641,6 @@ button[type="submit"]:hover {
         text-align: left;
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 /* end footer */
 

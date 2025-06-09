@@ -10,7 +10,7 @@
      scroll-behavior: smooth;
  }
 
- body {
+ .cards {
      font-family: Arial, sans-serif;
      background-color: var(--dark-gray);
      min-height: 100vh;
@@ -69,3 +69,158 @@
  .read-more:hover {
      background-color: #4a5768;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* footer */
+ #footer {
+     background-color: #242424;
+     color: white;
+
+ }
+
+ .container-footer {
+     display: flex;
+     justify-content: center;
+ }
+
+ .social {
+     display: flex;
+     flex-direction: column;
+     padding: 3rem;
+ }
+
+ .social p,
+ .social a {
+     color: white;
+     margin: .5rem 1rem;
+ }
+
+ .social ul li {
+     margin-bottom: .5rem;
+ }
+
+ .social a:hover {
+     color: #ff9f68;
+ }
+
+ .social i {
+     margin-right: 10px;
+     margin-bottom: 1.5rem;
+ }
+
+ .copyright {
+     text-align: center;
+     font-size: 12px;
+     background-color: black;
+ }
+
+ @media(max-width:767px) {
+
+     .container-footer {
+         flex-direction: column;
+
+     }
+
+     .social ul li {
+         margin-bottom: 2rem;
+         text-align: left;
+     }
+ }
+
+ /* end footer */
