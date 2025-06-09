@@ -38,7 +38,6 @@
      justify-content: center;
      align-items: center;
      padding: 2rem;
-     height: 100vh;
  }
 
  .container {
@@ -53,7 +52,7 @@
      background-color: #f8f9fa;
      border-radius: 15px;
      padding: 2rem;
-     width: 300px;
+     width: 350px;
      transition: all 0.3s ease;
      cursor: pointer;
      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -77,6 +76,7 @@
      color: #242424;
      line-height: 1.6;
      text-align: center;
+     margin-bottom: 1rem;
  }
 
  .read-more {
@@ -86,7 +86,7 @@
      color: black;
      border-radius: 25px;
      border: 1px solid #ff9f68;
-     margin-top: 1rem;
+     margin-top: auto;
      text-decoration: none;
      transition: background-color 0.3s ease;
      text-align: center;
