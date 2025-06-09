@@ -16,7 +16,20 @@
 
 
 
-    <!-- Landing Page -->
+
+    <div class="logo">
+        <img src="./img/logo-only.png" alt="">
+        <h1>I nostri Servizi</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, vero.</p>
+    </div>
+
+
+
+
+
+
+
+
 
     <div class="cards">
         <div class="container">
@@ -28,7 +41,7 @@
                     labore et dolore magna aliqua.
                 </p>
                 <a href="assicurazioni.html" class="read-more">
-                    <i class="fas fa-book-open"></i> Scopri
+                    <i class="fas fa-car-burst"></i> Scopri
                 </a>
             </div>
 
@@ -40,40 +53,74 @@
                     consequat.
                 </p>
                 <a href="#" class="read-more">
-                    <i class="fas fa-book-open"></i> Scopri
+                    <i class="fas fa-bolt"></i> Scopri
                 </a>
             </div>
-
             <!-- Card 3 -->
             <div class="card">
-                <h2 class="card-title">Noleggi</h2>
+                <h2 class="card-title">Noleggi Auto</h2>
                 <p class="card-content">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur.
                 </p>
                 <a href="#" class="read-more">
-                    <i class="fas fa-book-open"></i> Scopri
-                </a>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="card">
-                <h2 class="card-title">ecc</h2>
-                <p class="card-content">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.
-                </p>
-                <a href="#" class="read-more">
-                    <i class="fas fa-book-open"></i> Scopri
+                    <i class="fas fa-car"></i> Scopri
                 </a>
             </div>
         </div>
+
 
     </div>
 
 
 
+    <section class="preventivo">
+        <div id="form">
+            <div class="form-container">
+                <h2>Richiedi subito un preventivo gratuito o una consulenza</h2>
 
+
+
+
+
+
+                <form action="php/handler-assicurazioni.php" method="POST">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cognome">Cognome</label>
+                        <input type="text" id="cognome" name="cognome" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Numero di Telefono</label>
+                        <input type="tel" id="cellulare" name="cellulare" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="messaggio">Messaggio</label>
+                        <textarea id="messaggio" name="messaggio" required></textarea>
+                    </div>
+
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="check" name="check" required value="true" />
+                        <label for="privacy">Ai fini dell’art. 79 del Regolamento IVASS n. 40/2018 si riportano le
+                            informazioni relative all’intermediario che è soggetto alla vigilanza dell’IVASS</label>
+                    </div>
+
+                    <button type="submit">Invia</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
 
 
