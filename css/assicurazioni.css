@@ -167,6 +167,11 @@ nav ul li:hover {
     color: white;
 }
 
+.container-land img {
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
 h1 {
     font-size: 3.5rem;
     letter-spacing: 2px;
