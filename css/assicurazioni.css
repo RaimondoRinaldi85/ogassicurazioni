@@ -451,6 +451,13 @@ button:hover {
     color: rgb(43, 43, 43);
 }
 
+.content-left a {
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0 1rem 1rem 1rem;
+    color: rgb(43, 43, 43);
+}
+
 .content-right i {
     margin-top: 2rem;
     margin-right: 5px;
