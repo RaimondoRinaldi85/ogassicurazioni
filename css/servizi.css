@@ -32,8 +32,10 @@
  }
 
  .cards {
-     font-family: Arial, sans-serif;
-     background-color: #2c3e50;
+     background-image: url(../img/servizi.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -333,25 +335,28 @@
 
  }
 
+ .social img {
+     max-width: 200px;
+ }
+
  .container-footer {
      display: flex;
-     justify-content: center;
+     flex-direction: column;
  }
 
  .social {
-     display: flex;
-     flex-direction: column;
-     padding: 3rem;
+     text-align: center;
+     justify-items: center;
+ }
+
+ .social ul li {
+     margin: 2rem 0;
+     text-align: left;
  }
 
  .social p,
  .social a {
      color: white;
-     margin: .5rem 1rem;
- }
-
- .social ul li {
-     margin-bottom: .5rem;
  }
 
  .social a:hover {
@@ -366,7 +371,8 @@
  .copyright {
      text-align: center;
      font-size: 12px;
-     background-color: black;
+     background-color: white;
+     color: #242424;
  }
 
  @media(max-width:767px) {
