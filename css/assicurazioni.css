@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
-
 * {
     font-family: 'Lato', sans-serif;
     margin: 0;
@@ -15,7 +14,6 @@
 html {
     overflow-x: hidden;
 }
-
 
 /*nav*/
 nav {
@@ -49,7 +47,6 @@ nav p {
     outline: none;
     height: 3rem;
     width: 3rem;
-
 }
 
 .burger:active {
@@ -153,7 +150,7 @@ nav ul li:hover {
 
 .content-land {
     min-height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/land.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/land-assicurazioni.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -252,112 +249,103 @@ button:hover {
 /* End Landing Page */
 
 /* Su di noi */
+
 #au {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
-.about-container {
+.offerte-assicurazioni {
+    text-align: center;
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
 }
 
-.about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    margin-top: 2rem;
-}
-
-.about-image img {
-    height: 400px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.about-content h2 {
+.offerte-assicurazioni h2 {
     margin-bottom: 1rem;
     color: #333;
+    font-size: 30px;
 }
 
-.about-content p {
-    line-height: 1.5;
-    color: #383838;
-}
-
-.about-image:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease;
-}
-
-.about-banner {
+.offerte-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
     display: flex;
-    flex-direction: column;
-    margin-top: 2rem;
-    align-items: center;
+    gap: 2rem;
 }
 
-.bannerimg {
-    background-image: url(../img/about-banner.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 1200px;
+.offerte-container img {
     height: 200px;
+    min-width: 500px;
+    object-fit: cover;
+    object-position: center;
     border-radius: 10px;
-    margin-bottom: 2rem;
 }
 
-.bannerimg:hover {
+.offerte-content {
+    text-align: left;
+}
+
+.offerte-content p {
+    line-height: 1.5;
+    color: #383838;
+}
+
+.offerte-container img:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
 }
 
-.about-banner p {
+.offerte-container-rev {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.offerte-container-rev img {
+    height: 200px;
+    min-width: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.offerte-content-rev {
+    text-align: right;
+}
+
+.offerte-content-rev p {
     line-height: 1.5;
     color: #383838;
 }
+
+.offerte-container-rev img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+
 
 @media (max-width: 768px) {
-    .about-container {
-        padding: 1rem;
+    .offerte-container {
+        flex-direction: column;
     }
 
-    .about-content {
-        text-align: center;
+    .offerte-container-rev {
+        flex-direction: column-reverse;
     }
 
-    .about-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .about-image img {
-        height: 400px;
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .bannerimg {
-        width: 90%;
-        height: 100px;
-        object-fit: cover;
-    }
-
-    .about-banner {
-        text-align: center;
-    }
-
-    .about-image:hover {
+    .offerte-container-rev img:hover {
         transform: scale(1);
-        transition: transform 0.3s ease;
     }
 
-    .bannerimg:hover {
+    .offerte-container img:hover {
         transform: scale(1);
-        transition: transform 0.3s ease;
     }
 }
 
