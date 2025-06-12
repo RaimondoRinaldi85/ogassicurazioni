@@ -340,6 +340,14 @@ button:hover {
         flex-direction: column-reverse;
     }
 
+    .offerte-container img {
+        min-width: 50px;
+    }
+
+    .offerte-container-rev img {
+        min-width: 50px;
+    }
+
     .offerte-container-rev img:hover {
         transform: scale(1);
     }
