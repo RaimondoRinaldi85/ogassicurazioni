@@ -16,6 +16,7 @@ html {
 }
 
 /*nav*/
+
 nav {
     background-color: #f8f9fa;
     display: flex;
@@ -142,6 +143,7 @@ nav ul li:hover {
 /*end nav*/
 
 /* Landing Page */
+
 .land {
     margin: 0;
     padding: 0;
@@ -371,10 +373,10 @@ button:hover {
     }
 }
 
-/* Su di noi */
+/* End Su di noi */
 
-/* sedi*/
-/* accordion - sedi*/
+/* Sedi*/
+/* Accordion - Sedi*/
 
 #sedi {
     background-color: #f8f9fa;
@@ -514,8 +516,8 @@ button:hover {
 
 }
 
-/* accordion sedi end */
-/* sedi end */
+/* Accordion Sedi end */
+/* Sedi end */
 
 /* form */
 
@@ -609,6 +611,7 @@ button[type="submit"]:hover {
 /* end form */
 
 /* footer */
+
 #footer {
     background-color: #242424;
     color: white;
