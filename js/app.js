@@ -51,3 +51,32 @@ accordionItemHeaders.forEach(accordionItemHeader => {
 
     });
 });
+
+const slides = document.getElementById('slides');
+const indicators = document.getElementById('indicators');
+const totalSlides = slides.children.length;
+let currentIndex = 0;
+
+for (let i = 0; i < totalSlides; i++) {
+    const dot = document.createElement('div');
+    dot.classList.add('dot');
+    if (i === 0) dot.classList.add('active');
+    dot.addEventListener('click', () => {
+        currentIndex = i;
+        updateSlider();
+    });
+    indicators.appendChild(dot);
+}
+
+function updateSlider() {
+    slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    document.querySelectorAll('.dot').forEach((dot, index) => {
+        dot.classList.toggle('active', index === currentIndex);
+    });
+}
+
+// Auto slide
+setInterval(() => {
+    currentIndex = (currentIndex + 1) % totalSlides;
+    updateSlider();
+}, 7000);
