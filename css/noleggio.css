@@ -250,181 +250,48 @@ button:hover {
 
 /* End Landing Page */
 
+/* slides */
 
-
-/* slider */
-
-.container-slider {
-    margin-top: 3rem;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-
-.container-slider h1 {
-    font-size: 20px;
+#slides {
+    padding: 2rem;
     text-align: center;
-    margin-bottom: 3rem;
 }
 
-.slider {
-    position: relative;
-    width: 100vw;
-    height: 100vh;
+#slides h2 {
+    margin: 2rem 0;
 }
 
-.slides {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.5s ease-in-out;
+.noleggio-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1rem;
+    align-items: center;
+
 }
 
-.slide {
-    min-width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
+
+.noleggio-card {
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
 }
 
-.indicators {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    gap: 12px;
-    z-index: 10;
+.noleggio-card img {
+    max-width: 100%;
+
 }
 
-.dot {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.5);
-    cursor: pointer;
-    transition: background 0.3s;
-}
+@media (max-width: 1500px) {
 
-.dot.active {
-    background: white;
-}
+    .noleggio-container {
+        grid-template-columns: 1fr;
 
-@media (max-width: 768px) {
-    .dot {
-        width: 18px;
-        height: 18px;
-    }
-
-    .indicators {
-        gap: 16px;
     }
 }
 
-@media (max-width: 480px) {
-    .dot {
-        width: 16px;
-        height: 16px;
-    }
 
-    .indicators {
-        gap: 14px;
-        bottom: 15px;
-    }
-}
-
-/* end slider */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* end slides */
 
 /* form */
 
