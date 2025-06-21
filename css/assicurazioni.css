@@ -437,7 +437,6 @@ button:hover {
     padding: 1rem;
     margin-top: 1rem;
     line-height: 1.5rem;
-
     border-image: linear-gradient(to right, transparent, #2c2c2c, transparent) 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -482,6 +481,7 @@ button:hover {
     padding: 1rem 1.5rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.062);
+    transition: background-color 0.3s ease;
 }
 
 .content-right a:hover {

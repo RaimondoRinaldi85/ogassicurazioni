@@ -269,7 +269,6 @@ button:hover {
 
 }
 
-
 .noleggio-card {
     border-radius: 10px;
     padding: 2rem;
@@ -294,6 +293,11 @@ button:hover {
     #slides {
         padding: .2rem;
 
+    }
+
+    #slides h2 {
+        font-size: 16px;
+        padding: 1rem;
     }
 }
 
